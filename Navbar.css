@@ -1,0 +1,86 @@
+.Navbar{
+padding: 20px 0px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.Navbar.logo{
+    width:100px;
+  
+ }
+
+ .Navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    color: grey;
+    font-size: 25px;
+ }
+ .Navbar-right{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  cursor: pointer;
+
+ }
+
+  .Navbar-button {
+    background:transparent;
+    font: size 16px;
+    color:#49557e;
+    border : 1px solid tomato;
+    padding : 10px 30px;
+    border-radius :40px;
+    cursor: pointer;
+    transition: 0.3s;
+  
+  }
+  
+   .Navbar button:hover{
+    background-color: #fff4f2; 
+   }
+   .Navbar .active {
+      padding-bottom:2px;
+     
+    }   
+
+ 
+ .Navbar li {
+    cursor: pointer;
+ }
+
+ .Navbar-search-icon{
+    position: relative;
+
+ }
+
+ .Navbar-search-icon .Dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: red;
+    border-radius: 5px;
+    top:-8px;
+    right:-8px;
+  
+}
+   .Navbar.Sign-in{
+   background-color: #04AA6D !important;
+    color: white !important;
+}
+
+
+ 
+
+ ul.Navbar-menu li:hover {
+    text-decoration: underline;
+}
+
+* {
+   padding: 3px;
+   margin-left:auto;
+   margin-right:auto;
+   box-sizing: border-box;
+   font-family: outfit;
+}
