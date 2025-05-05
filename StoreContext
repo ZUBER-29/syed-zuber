@@ -1,0 +1,23 @@
+// const [CartItems,setCartItem] = useState({});
+
+
+// const addToCart = (itemId) => {
+//   if(!CartItems[itemId]) {
+//     setCartItem((prev)=>({...prev,[itemId]:1}))
+//   }
+//   else{
+//     setCartItem((prev)=>({...prev,[itemId]:prev[itemId]+1}))
+//   }
+
+// }
+
+// const removeFormCart=(itemId)=>{
+//   setCartItem((prev)=>({...prev,[itemId]:prev[itemId]-1}))
+
+// }
+
+//  useEffect(()=>{
+//   console.log(CartItems);
+//  },[CartItems])
+
+
